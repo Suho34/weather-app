@@ -222,3 +222,76 @@ button {
     grid-template-columns: 1fr; /* Stack forecast days vertically */
   }
 }
+
+/* For smaller screens */
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .weather-header {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  .section-title {
+    font-size: 18px;
+    padding-bottom: 3px;
+  }
+
+  .weather-info,
+  .condition-text,
+  .forecast-date {
+    font-size: 14px;
+  }
+
+  /* Adjust Search Bar */
+  .search {
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .search input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .search button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  /* Weather Details */
+  .weather-details {
+    padding: 15px;
+    margin: 10px auto;
+  }
+
+  .weather-metrics {
+    grid-template-columns: 1fr; /* Single column layout */
+    gap: 8px;
+  }
+
+  .forecast {
+    grid-template-columns: 1fr; /* Stack forecast cards */
+  }
+
+  /* Adjust Forecast Cards */
+  .forecast-day {
+    padding: 12px;
+    text-align: center;
+  }
+
+  .forecast-metrics p {
+    font-size: 14px;
+  }
+
+  /* Responsive Image */
+  img {
+    height: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
