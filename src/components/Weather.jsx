@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import Search from "./Search";
 
 const API_KEY = "c587e916b33c41ccac404102251803"; // Replace with your WeatherAPI key
-const CURRENT_URL = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q={city}`;
-const FORECAST_URL = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q={city}&days=7`;
+const CURRENT_URL = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q={city}`;
+const FORECAST_URL = `https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q={city}&days=7`;
 
 function Weather() {
   const [city, setCity] = useState(null); // City name from Search
