@@ -1,6 +1,6 @@
-# WeatherNow
+# AuraCsst
 
-WeatherNow is a simple and intuitive weather app that provides current weather conditions and a 7-day forecast for any city worldwide.
+AuraCast is a simple and intuitive weather app that provides current weather conditions and a 7-day forecast for any city worldwide.
 
 ## Features
 
